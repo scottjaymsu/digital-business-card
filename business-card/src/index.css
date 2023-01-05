@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font: 'Inter';
+    background-color:#23252C;
 }
 
 .information {
@@ -11,11 +12,13 @@
     display: flex;
     flex-direction: column;
     background-color: #1A1B21;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .jay {
     height: 300px;
     width: 300px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .information > h1 {
@@ -24,6 +27,7 @@
     color: white;
     margin: 0;
     padding-top: 15px;
+    background-color: #1A1B21;
 }
 
 .information > h3 {
@@ -32,6 +36,7 @@
     line-height: 15px;
     font-weight: 400;
     margin: 0;
+    background-color: #1A1B21;
 }
 
 .information > a {
@@ -39,6 +44,7 @@
     color: #F5F5F5;
     padding: 13px;
     text-decoration: none;
+    background-color: #1A1B21;
 }
 
 .email {
@@ -55,6 +61,14 @@
     border: 1px solid #D1D5DB;
     border-radius: 6px; 
     margin-right: -60px;
+}
+
+.email > button:hover{
+    cursor:pointer;
+}
+
+.email > img:hover{
+    cursor:pointer;
 }
 
 .email > img {
@@ -79,15 +93,54 @@
      font-size: 16px;
      line-height: 24px;
      padding-top: 25px;
+     background-color: #1A1B21;
 }
 
 .about > p, .interests > p{ 
     font-size: 10.25px;
     line-height: 15px;
     margin-top: -10px;
+    background-color: #1A1B21;
 }
+
+.interests {
+    padding-bottom: 16px;
+} 
 
 .interests > h2 {
     padding-top: 15px;
 }
 
+.links {
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -10px;
+    background-color: #161619;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.links > a > img {
+    width: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.links > a {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.linkedin {
+    margin-right: -40px;
+}
+
+.facebook {
+    margin-left: -35px;
+}
+
+.github {
+    margin:0;
+}
