@@ -7,7 +7,8 @@ export default function Interests() {
                 Interests
             </h2>
             <p>
-                Traveling, Coffee, Piano/Cello/Harp Music, Soccer, Hiking, Ice Skating, Skiing, Rollerblading, Weight-Lifting, Aussie Shepards, Dogs, Cats
+                Traveling, Coffee, Piano/Cello/Harp Music, Soccer, Hiking, Ice Skating, 
+                Skiing, Rollerblading, Weight-Lifting, Aussie Shepards, Dogs, Cats
             </p>
         </div>
     )
