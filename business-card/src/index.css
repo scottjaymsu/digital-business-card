@@ -64,7 +64,7 @@
     margin-top: 3px;
 }
 
-.about {
+.about, .interests {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -75,16 +75,19 @@
     color: #F5F5F5;
 }
 
-.about >h2{
+.about >h2, .interests>h2{
      font-size: 16px;
      line-height: 24px;
      padding-top: 25px;
 }
 
-.about > p { 
+.about > p, .interests > p{ 
     font-size: 10.25px;
     line-height: 15px;
     margin-top: -10px;
 }
 
+.interests > h2 {
+    padding-top: 15px;
+}
 
