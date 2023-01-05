@@ -1,7 +1,9 @@
+import React from 'react'
+import Info from './components/Info.js' 
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <Info />
   );
 }
 
